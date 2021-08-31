@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
-import App from './App';
-//import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+
+// 파이어베이스 동작 확인
+import firebase from "firebase/compat/app"; // 버전 8과 9 compatibility 해결
+console.log(firebase);
 
 ReactDOM.render(
   <React.StrictMode>
